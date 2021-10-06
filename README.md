@@ -1,4 +1,4 @@
-# Basic-Components-of-a-Web-Layout
+# Basic Components of a Web Layout
 
 Hi! Welcome to this beginner-friendly **Frontend Engineering** challenge for [Hactoberfest](https://hacktoberfest.digitalocean.com/). A project focused on people getting started with frontend development.
 
