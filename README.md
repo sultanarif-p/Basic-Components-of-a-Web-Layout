@@ -53,7 +53,7 @@ Please try to follow these guidelines:
 
 5. Create a branch with your username.
 
-6. Make the changes in your branch.
+6. Make the changes in your branch. For eg. You're creating a navbar using ReactJS and your username is xyz so you've to follow the path /ReactJS/Navbar/xyz/[YOUR_REACT_FILE] and same goes with others.
 
 7. Commit and push the code to YOUR fork.
 
