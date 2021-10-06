@@ -6,9 +6,9 @@ Everyone is encouraged to participate, regardless of your skill level (If you do
 
 ## About the Project:
 
-You've to basically make components which are used often in a website. For eg. Navbar, Sidebar, Alert box, Carousel, Pagination etc.
+You've to basically make components which are used often in a website. For eg. Navbar, Sidebar, Alert box, Carousel, Pagination etc. You'll definitely learn a lot from this project.
 
-You'll definitely learn a lot from this project. This project will be divided into to parts:
+This project will be divided into two parts:
 
 1. Basic HTML,CSS and JavaScript.
 2. ReactJS
