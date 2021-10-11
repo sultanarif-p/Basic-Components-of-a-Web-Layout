@@ -1,1 +1,1 @@
-You've to create Navbar in this folder using basic HTML,CSS & JavaScript.
+You've to create navbar in this folder using basic HTML,CSS & JavaScript.
