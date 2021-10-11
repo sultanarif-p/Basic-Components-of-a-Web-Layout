@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and signup form</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="register()">Sign Up</button>
+            </div>
+            
+                <form action="login.php" method="post" class="input-group" id="login">
+                   
+                           <input type="text" name="fname" class="input-field" placeholder="First Name" required>
+                           <input type="text" name="lname" class="input-field" placeholder="Last Name" required>
+                           <input type="password" name="password" class="input-field" placeholder="Enter Password" required >
+                           <input type="checkbox" class="check-box"><span>Remember Password</span>
+                           <button type="submit" class="submit-btn">Login</button>
+                
+                </form>
+                <form action="register.php" method="post" class="input-group" id="register">
+                   
+                    <input type="text" name="fname" class="input-field" placeholder="First Name" required>
+                    <input type="text" name="lname" class="input-field" placeholder="Last Name" required>
+                    <input type="email" name="email" class="input-field" placeholder="Email Id" required >
+                    <input type="password" name="password" class="input-field" placeholder="Enter Password" required >
+                    <input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span>
+                    <button type="submit" class="submit-btn">Sign Up</button>
+         
+               </form>
+                
+
+        </div>
+    </div>
+    <script>
+        var signin=document.getElementById("login");
+        var signup=document.getElementById("register");
+        var btn=document.getElementById("btn");
+
+        function register()
+        {
+            signin.style.left="-400px"
+            signup.style.left="50px";
+            btn.style.left="110px"
+        }
+        function login()
+        {
+            signin.style.left="50px"
+            signup.style.left="450px";
+            btn.style.left="0"
+        }
+    </script>
+</body>
+</html>
