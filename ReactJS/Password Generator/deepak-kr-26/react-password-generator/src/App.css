@@ -1,0 +1,120 @@
+.App{
+  min-height: 100vh;
+  background: white;
+}
+
+.headline{
+  text-align: center;
+  padding-top: 70px;
+}
+.headline > h2{
+  color: crimson;
+}
+.headline > h1{
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif !important;
+    font-size: 50px;
+}
+
+.container{
+  width: 600px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.password_generator{
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(39, 38, 38, 0.5);
+  padding: 20px;
+}
+
+.generator_header{
+  text-align: center;
+  color: black;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.password{
+  position:relative; 
+  box-shadow:1px 1px 1px 1px rgba(39, 38, 38, 0.5) inset;
+  padding: 13px 10px;
+  color: black;
+  height: 46px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+.copy{
+  position: absolute;
+  background:crimson;
+  color: white;
+  border: none;
+  height: 35px;
+  padding: 10px;
+  cursor: pointer;
+  top:6px;
+  right:4px;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+}
+
+.copy:hover{
+  /* box-shadow: 0px 2px 5px rgba(39, 38, 38, 0.4); */
+  background:white;
+  color: crimson;
+  /* border: 1.5px solid crimson */
+}
+
+
+.generator_btn{
+  background: crimson;
+  border: none;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  color: white;
+  font-size:17px;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 0px 2px 8px rgba(150, 150, 150, 0.4);
+  transition-duration: 0.4s;
+}
+.generator_btn:hover{
+  box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24),0 12px 40px 0 rgba(0,0,0,0.19);
+}
+
+.form_group{
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  margin-bottom: 15px;
+}
+
+#password-strength{
+  width: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .container{
+    width: 500px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .container{
+    width: 400px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .container{
+    width: 380px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .container{
+    width: 350px;
+  }
+}
